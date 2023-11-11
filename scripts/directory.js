@@ -2,8 +2,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Get the main container
     const main = document.querySelector("#directory");
-    const baseURL = 'https://courtneymoreland.github.io/wdd230/';
-const jsonURL = baseURL + 'chamber/data/memebers.json';
+    const baseURL = 'https://courtneymoreland.github.io/';
+const jsonURL = baseURL + 'LocalBizConnect-Chamber/data/memebers.json';
 
     // Fetch json
     fetch(jsonURL).then(response => response.json()).then(data => {
