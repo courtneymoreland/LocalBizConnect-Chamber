@@ -2,14 +2,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Get the main container
     const main = document.querySelector("#directory");
-<<<<<<< HEAD
     const baseURL = 'https://courtneymoreland.github.io/wdd230/';
-const jsonURL = baseURL + 'chamber/data/members.json';
-=======
-    const baseURL = 'https://courtneymoreland.github.io/';
-const jsonURL = baseURL + 'LocalBizConnect-Chamber/data/members.json';
->>>>>>> a4b76d6dd6a5f054f098f10090b3538ff8f321a1
-
+    const jsonURL = baseURL + 'chamber/data/members.json';
     // Fetch json
     fetch(jsonURL).then(response => response.json()).then(data => {
         // Create a new card for every element in the directory
